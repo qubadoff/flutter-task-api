@@ -55,8 +55,6 @@ class AuthController extends Controller
 
         return response()->json([
             'message' => 'Qeydiyyat uğurlu oldu',
-            'user'    => $user,
-            'token'   => $token,
         ], 201);
     }
 }
